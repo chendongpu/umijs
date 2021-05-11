@@ -15,6 +15,14 @@ export default defineConfig({
   routes: [
     { path: '/', component: '@/pages/index',title:'首页' },
     { path: '/user', component: '@/pages/user',title:'用户页面' },
+      {
+        path:"/sub",
+          component:'@/layouts/index',
+          routes:[
+              {path:'/sub/one',component:'@/pages/index'},
+              {path:'/sub/two',component:'@/pages/user'}
+          ]
+      }
   ],
   fastRefresh: {},
 });
