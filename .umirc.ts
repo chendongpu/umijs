@@ -15,6 +15,7 @@ export default defineConfig({
   routes: [
     { path: '/', component: '@/pages/index',title:'首页' },
     { path: '/user', component: '@/pages/user',title:'用户页面' },
+    { path: '/list', redirect:'/sub/two' },
       {
         path:"/sub",
           component:'@/layouts/index',
