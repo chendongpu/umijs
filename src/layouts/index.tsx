@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Index(props) {
+export default function Index(props:any) {
     return (
         <div>
             <h2>Header</h2>

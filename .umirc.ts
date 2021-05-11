@@ -19,6 +19,7 @@ export default defineConfig({
       {
         path:"/sub",
           component:'@/layouts/index',
+          wrappers:["@/wrappers/auth"],
           routes:[
               {path:'/sub/one',component:'@/pages/index'},
               {path:'/sub/two',component:'@/pages/user'}
