@@ -21,8 +21,9 @@ export default defineConfig({
           component:'@/layouts/index',
           wrappers:["@/wrappers/auth"],
           routes:[
-              {path:'/sub/one',component:'@/pages/index'},
-              {path:'/sub/two',component:'@/pages/user'},
+              {path:'/sub',component:'@/pages/sub'},
+              {path:'/sub/one',component:'@/pages/one'},
+              {path:'/sub/two',component:'@/pages/two'},
               {component:'@/pages/404'},
           ]
       }
