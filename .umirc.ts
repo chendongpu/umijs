@@ -5,6 +5,7 @@ export default defineConfig({
     type: 'none',
   },
     hash:true,
+    title:'sadd',
   routes: [
     { path: '/', component: '@/pages/index' },
   ],
