@@ -6,8 +6,11 @@ export default defineConfig({
   },
     hash:true,
     title:'sadd',
+    history:{
+      type:'hash'
+    },
   routes: [
-    { path: '/', component: '@/pages/index' },
+    { path: '/', component: '@/pages/index',title:'首页' },
   ],
   fastRefresh: {},
 });
