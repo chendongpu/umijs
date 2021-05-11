@@ -22,7 +22,8 @@ export default defineConfig({
           wrappers:["@/wrappers/auth"],
           routes:[
               {path:'/sub/one',component:'@/pages/index'},
-              {path:'/sub/two',component:'@/pages/user'}
+              {path:'/sub/two',component:'@/pages/user'},
+              {component:'@/pages/404'},
           ]
       }
   ],
