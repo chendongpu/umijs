@@ -9,6 +9,9 @@ export default defineConfig({
     history:{
       type:'hash'
     },
+    theme:{
+      '@primary-color':'#1DA57A'
+    },
   routes: [
     { path: '/', component: '@/pages/index',title:'首页' },
   ],
