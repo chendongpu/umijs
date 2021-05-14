@@ -2,6 +2,8 @@ export default [
     { path: '/', component: '@/pages/index',title:'首页' },
     { path: '/user', component: '@/pages/user',title:'用户页面' },
     { path: '/dva', component: '@/pages/dva',title:'dva页面' },
+    { path: '/foo', component: '@/pages/foo'},
+    { path: '/login', component: '@/pages/login'},
     { path: '/list', redirect:'/sub/two' },
       {
         path:"/sub",
